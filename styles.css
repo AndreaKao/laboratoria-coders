@@ -17,11 +17,15 @@ div.coder {
     height: 250px;
     float: left;
     margin: 10px;
+    background-color: black;
 }
 
 div.coder img {
-    width: 100%;
+    width: auto;
     height: auto;
+    max-width: 100%;
+    min-width: 250px;
+    max-height: 100%;
     position: relative;
     opacity: 0.5;
 }
